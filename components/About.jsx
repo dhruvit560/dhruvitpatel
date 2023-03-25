@@ -1,5 +1,5 @@
 import React, { useEffect, PureComponent } from "react";
-import { gsap, Power4 } from "gsap";
+import { Power4 } from "gsap";
 import TweenMax from "gsap";
 
 const About = () => {
