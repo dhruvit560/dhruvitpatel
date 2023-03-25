@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, PureComponent } from "react";
-import { gsap, Power2, Power4 } from "gsap";
-import TweenMax from "gsap";
+// import { gsap, Power2, Power4 } from "gsap";
+// import TweenMax from "gsap";
 import Experience from "./Experience";
 import Skills from "./Skills";
 import SocialMedia from "./SocialMedia";
