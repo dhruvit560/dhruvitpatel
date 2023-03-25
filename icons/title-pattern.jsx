@@ -5,9 +5,10 @@ const TitlePattern = () => {
     <svg
       aria-hidden="true"
       viewBox="0 0 281 40"
-      class="absolute top-1/2 left-0 fill-orange"
+      className="absolute top-1/2 left-0"
       style={{ width: "9rem" }}
       preserveAspectRatio="none"
+      fill="#FA7E24"
     >
       <path
         fill-rule="evenodd"
