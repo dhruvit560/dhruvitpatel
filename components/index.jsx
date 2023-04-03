@@ -20,10 +20,10 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="blob relative z-0" />
-      <div className="min-h-screen bg-primary py-10">
+      <div className="blob" />
+      <div className="relative min-h-screen py-10">
         <div className="container">
-          <div className="rounded-xl border border-white p-10">
+          <div className="p-10 border border-white rounded-xl">
             <About />
             <Experience />
             <Skills />

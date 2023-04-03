@@ -1,6 +1,7 @@
 import React, { useEffect, PureComponent } from "react";
 import { Power4 } from "gsap";
 import TweenMax from "gsap";
+import Title from "@/widget/Title";
 
 const About = () => {
   useEffect(() => {
@@ -85,25 +86,25 @@ const About = () => {
         <div className="col-span-4">
           <img
             src="/images/DP.jpg"
-            className="object-cover h-full w-full"
+            className="object-cover w-full h-full"
             alt="Dhruvit Patel"
           />
         </div>
-        <div className="col-span-8 p-10 flex items-center">
+        <div className="flex items-center col-span-8 p-10">
           <div>
             <h1 className="text-3xl font-bold">
               <span className="text-orange">Hii,</span> I'm Dhruvit Patel
             </h1>
             <div className="orange-line mt-2 h-0.5 w-20 bg-orange"></div>
             <p className="mt-4 text-sm">
-              As a web designer with over 4 years of experience, I have a deep
+              As a UI Developer with over 4 years of experience, I have a deep
               understanding of user experience and design principles that help
               create visually appealing and functional websites. I specialize in
               creating responsive designs that adapt to different screen sizes
               and devices to ensure seamless user experiences across all
               platforms.
             </p>
-            <div className="magnetic mt-5">
+            <div className="mt-5 magnetic">
               <button class="primary-button">
                 <div className="btn-text">Let's Connect !</div>
                 <span class="round" />
@@ -111,6 +112,25 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-10">
+        <Title text="About me" />
+        <p className="mt-6 text-xl font-medium leading-loose">
+          <span className="pr-16 text-xs font-medium uppercase text-smooth">
+            Hello!
+          </span>
+          My self Dhruvit Patel a professional UI Developer & Product Designer
+          with 4+ years of experience in the IT Industry. I have a proven track
+          record of success in developing visually stunning user experiences, as
+          well as unique, creative, or SEO-friendly websites and web
+          applications. My vision has always been straightforward:{" "}
+          <span className="text-2xl text-orange">WORK WITH PASSION</span> to
+          solve real world problems. And today, I've worked on over 100+
+          different types of projects, including client-based, product-based,
+          and national-level government projects, and continue striving for
+          more. I'm still as eager as ever to go the extra mile and take that
+          extra step.
+        </p>
       </div>
     </>
   );
