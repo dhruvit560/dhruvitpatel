@@ -92,8 +92,9 @@ const About = () => {
         </div>
         <div className="flex items-center col-span-8 p-10">
           <div>
-            <h1 className="text-3xl font-bold">
-              <span className="text-orange">Hii,</span> I'm Dhruvit Patel
+            <h1 className="text-4xl font-bold">
+              <span className="text-orange gradient-text">Hello !</span> 👋 I'm
+              Dhruvit Patel
             </h1>
             <div className="orange-line mt-2 h-0.5 w-20 bg-orange"></div>
             <p className="mt-4 text-sm">
@@ -124,8 +125,10 @@ const About = () => {
           record of success in developing visually stunning user experiences, as
           well as unique, creative, or SEO-friendly websites and web
           applications. My vision has always been straightforward:{" "}
-          <span className="text-2xl text-orange">WORK WITH PASSION</span> to
-          solve real world problems. And today, I've worked on over 100+
+          <span className="text-2xl font-semibold gradient-text">
+            WORK WITH PASSION
+          </span>{" "}
+          to solve real world problems. And today, I've worked on over 100+
           different types of projects, including client-based, product-based,
           and national-level government projects, and continue striving for
           more. I'm still as eager as ever to go the extra mile and take that

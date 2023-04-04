@@ -1,3 +1,6 @@
+::selection{
+  @apply text-white bg-primary;
+}
 .blob {
   display: flex;
   justify-content: center;
@@ -76,10 +79,12 @@ overflow-x: hidden; */
 }
 
 .skill-text {
-@apply inline-block p-0 text-4xl font-bold text-primary;
+@apply inline-block p-0 text-5xl font-bold text-primary;
 /* text-shadow:1px 1px 0 #fff; */
-  -webkit-text-stroke: 1px #fff;
-  line-height: 3rem;
+-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-fill-color: transparent;
+  line-height: 4.5rem;
 }
 .marquee-container{
   overflow: hidden;
@@ -97,11 +102,25 @@ overflow-x: hidden; */
   transition: width .5s ease-in-out,height .5s ease-in-out;
 }
 .slick-dots li.slick-active button:before{
-  @apply !text-orange ;
+  @apply !text-orange !opacity-100 ;
 }
 .slick-dots li button:before{
   @apply !text-white;
 }
 .slick-dots{
   @apply !-bottom-[35px];
+}
+.gradient-text{
+  background: radial-gradient(circle at 0 0,#EFC438,#fa7234);
+  background-attachment: sticky;
+  /* background-position: 50%; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+.downloadIcon{
+  animation: slowRotate 20s linear infinite;
+}
+@keyframes slowRotate{
+  0%{transform:rotate(0deg)}to{transform:rotate(360deg)}
 }
